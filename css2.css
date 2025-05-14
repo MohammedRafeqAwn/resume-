@@ -1,0 +1,122 @@
+/* main.css */
+/* styles for the elements */
+
+html {
+  background-image: linear-gradient(to bottom, white 0%, #4a90e2 100%);
+}
+
+body {
+  
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 95%;
+  width: 100%;
+  background-color: white;
+  margin: 1em auto;
+  padding: 1em 1.5em;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 5px 5px 0 0 gray;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: bold;
+  color: #0056b3;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: #ff4500;
+}
+
+a:visited {
+  color: #32cd32;
+}
+
+ul {
+  margin: 0 0 1.5em;
+}
+
+li {
+  font-size: 95%;
+  padding-bottom: 0.35em;
+}
+
+p {
+  font-size: 95%;
+  padding: 0.25em 0;
+}
+
+header {
+  padding-bottom: 1em;
+  border-bottom: 2px solid #0056b3;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto 1em auto;
+}
+
+
+
+header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 300px; 
+}
+
+
+header h2 {
+  font-size: 200%;
+  color: #ff4500;
+  text-align: left;
+  text-shadow: 2px 3px 0 black;
+  margin-bottom: 0.25em;
+}
+
+header h4 {
+  font-size: 120%;
+  font-style: italic;
+  text-align: left;
+  margin: 0;
+}
+
+main {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-size: 125%;
+  margin-bottom: 0.5em;
+}
+
+footer {
+  max-width: 700px;
+  margin: 2em auto 0 auto;
+  border-top: 2px solid #0056b3;
+  padding-top: 0.7em;
+}
+
+footer p {
+  font-size: 80%;
+  text-align: right;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  font-size: 100%;
+  cursor: pointer;
+}
